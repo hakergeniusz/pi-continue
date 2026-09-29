@@ -1,0 +1,19 @@
+{
+	"name": "pi-continue",
+	"version": "0.1.0",
+	"description": "Adds /continue: resumes the previous agent run where it left off, without re-describing the task.",
+	"type": "module",
+	"license": "MIT",
+	"keywords": [
+		"pi",
+		"pi-package",
+		"continue",
+		"resume",
+		"command"
+	],
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		]
+	}
+}
